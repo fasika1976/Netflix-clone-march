@@ -1,0 +1,49 @@
+.header_outer_container {
+    position: sticky;
+    top: 0;
+    background-color:rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    padding: 10px 20px;
+    /* background-color: red; */
+}
+.nav_black {
+    background-color: rgb(20, 20, 20);
+}   
+.header_container {
+    width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-left li {
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  gap: 20px;
+
+}
+.header-right ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.header-right li {
+  cursor: pointer;
+}
