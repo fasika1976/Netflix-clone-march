@@ -1,15 +1,20 @@
-import './Header.css'
+
+import "./Header.css";
+import NetflixLogo from "../../assets/Images/netflix-logo.png";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
 const Header = () => {
   return (
     <div className="header_outer_container">
       <div className="header_container">
         <div className="header-left">
           <ul>
-            {/* <li><img srg+</li> */}
+            <li>
+              <img src={NetflixLogo} alt="Netflix Logo" width="100" />
+            </li>
             <li>Netflix</li>
             <li>Home</li>
             <li>TV Shows</li>
@@ -21,15 +26,23 @@ const Header = () => {
         </div>
         <div className="header-right">
           <ul>
-            <li><SearchIcon /></li>
-            <li><NotificationsIcon /></li>
-            <li><AccountBoxIcon /></li>
-            <li><ArrowDropDownIcon /></li>
+            <li>
+              <SearchIcon />
+            </li>
+            <li>
+              <NotificationsIcon />
+            </li>
+            <li>
+              <AccountBoxIcon />
+            </li>
+            <li>
+              <ArrowDropDownIcon />
+            </li>
           </ul>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
