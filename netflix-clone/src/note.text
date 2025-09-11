@@ -1,0 +1,17 @@
+ $ npm install github-pages --save-dev
+ user name: fasika1976
+folder: Netflix-clone-march
+
+https://github.com/fasika1976
+https://github.com/fasika1976/Netflix-clone-march
+
+"homepages": "https://fasika1976.github.io/Netflix-clone-march"
+
+
+
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+
+
