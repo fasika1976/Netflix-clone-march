@@ -1,5 +1,5 @@
 {
-  "homepages": "https://fasika1976.github.io/Netflix-clone-march"
+  "homepages": "https://fasika1976.github.io/Netflix-clone-march",
 
   "name": "netflix-clone",
   
@@ -61,7 +61,7 @@
     
   "start": "react-scripts start",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d build",
     
   "build": "react-scripts build",
   
