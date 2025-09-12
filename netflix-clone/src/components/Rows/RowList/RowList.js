@@ -4,7 +4,7 @@ const RowList = () => {
   return (
     <>
       <Row
-        title="NETFLIX ORIGINALS"
+        title="GROUP 3 FAVORITEES"
         fetchUrl={requests.fetchNetflixOriginals}
         isLarge={true}
       />
