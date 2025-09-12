@@ -3,11 +3,11 @@
  $ npm install --save-dev github-pages
 
  2nd
- user name: fasika1976
-folder: Netflix-clone-march
+github user name: fasika1976
+repo name: Netflix-clone-march
 
 https://github.com/fasika1976
-https://github.com/fasika1976/Netflix-clone-march
+  "homepages":'https://{github user name}.github.io./{repo name}'
 
 "homepages": "https://fasika1976.github.io/Netflix-clone-march"
 
